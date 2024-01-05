@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./reset/reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Conversor - PDF</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <img src="./images/logo-pdf.svg" alt="Logo">
         <nav>
-            <a href="###" id="item-nav1">Suporte</a>
-            <a href="###" id="item-nav2">Download</a>
-            <a href="###" id="item-nav3">Ferramentas</a>
+            <a href="" class="item-nav-header">Suporte</a>
+            <a href="" class="item-nav-header">Download</a>
+            <a href="" class="item-nav-header">Ferramentas</a>
         </nav>        
     </header>
-
-    <div id="line-header"></div>
-
+    <span id="guide">
+        Digite abaixo o texto que você deseja converter para PDF
+    </span>
     <div id="content">
         <h1>Olá mundo!</h1>
         <p>Este será o conteúdo do PDF!</p>
