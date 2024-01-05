@@ -13,8 +13,29 @@ header{
     margin-bottom: 25px;
 }
 
+#sc-content{
+    display: flex;
+    flex-direction: column;
+}
+
 .item-nav-header{
     text-decoration: none;
     color: #000;
     margin: 0 12px;
+}
+
+#guide{
+    font-size: 1.3em;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    background-color: #fff;
+    width: 360px;
+    height: 460px;
+    margin: 0 auto;
+    border: 1px solid #1e1e1e;
+    padding: 40px;
 }
