@@ -3,7 +3,7 @@ const btnGenerate = document.querySelector("#generate-pdf")
 btnGenerate.addEventListener("click", () => {
 
     // Conteúdo do PDF
-    const content = document.querySelector("#content")
+    const content = document.querySelector("#content").value
     
     // Configuração do arquivo final de PDF
     const options = {
