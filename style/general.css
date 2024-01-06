@@ -38,11 +38,12 @@ header{
 #content{
     background-color: #fff;
     width: 260px;
-    height: 60vh;
+    height: 48vh;
     margin: 0 auto;
     border: 1px solid #1e1e1e;
     padding: 40px;
     resize: none;
+    font-size: 0.63em;
 }
 
 #generate-pdf{
