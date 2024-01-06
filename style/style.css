@@ -42,6 +42,7 @@ header{
     margin: 0 auto;
     border: 1px solid #1e1e1e;
     padding: 40px;
+    resize: none;
 }
 
 #generate-pdf{
