@@ -2,6 +2,11 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;    
-    background-color: #1e1e1e;
+    background-color: #1e1e1e;    
+    color: #fff;
+}
+
+a{
+    color: #fff;
 }
 
