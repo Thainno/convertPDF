@@ -2,31 +2,6 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;    
+    background-color: #1e1e1e;
 }
 
-header{
-    height: 9vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 3px 10px #1e1e1e;
-    padding: 0 20px;
-    background-color: #981b1b;
-}
-
-.item-nav-header{
-    text-decoration: none;
-    color: #fff;
-    margin: 0 12px;
-}
-
-footer{
-    height: 9vh;
-    background-color: #981b1b;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    box-shadow: 0 -3px 10px #1e1e1ece;
-}
