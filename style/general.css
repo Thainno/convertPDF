@@ -14,52 +14,10 @@ header{
     background-color: #981b1b;
 }
 
-#sc-content{
-    display: flex;
-    flex-direction: column;
-    height: 82vh;
-    background-color: #1e1e1edc;
-}
-
 .item-nav-header{
     text-decoration: none;
     color: #fff;
     margin: 0 12px;
-}
-
-#guide{
-    font-size: 1.3em;
-    color: #fff;
-    margin: 30px 0;
-    display: flex;
-    justify-content: center;
-}
-
-#content{
-    background-color: #fff;
-    width: 260px;
-    height: 48vh;
-    margin: 0 auto;
-    border: 1px solid #1e1e1e;
-    padding: 40px;
-    resize: none;
-    font-size: 0.63em;
-}
-
-#generate-pdf{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 40px;    
-    font-family: 'Josefin Sans', sans-serif;  
-    font-size: 1em;
-    background-color: #EE2323;
-    color: #fff;
-    border-radius: 4px;
-    border: none;
-    border-bottom: 3px solid #981b1b;
-    margin: 30px auto;
 }
 
 footer{
