@@ -4,9 +4,11 @@ body{
     font-family: 'Josefin Sans', sans-serif;    
     background-color: #1e1e1e;    
     color: #fff;
+    overflow-x: hidden;
 }
 
 a{
     color: #fff;
+    text-decoration: none;
 }
 
