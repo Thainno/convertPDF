@@ -10,6 +10,10 @@
     background-color: #1e1e1ec6;
 }
 
+#logo{
+    height: 65px;
+}
+
 .header-nav{
     display: flex;
     gap: 70px;
@@ -42,22 +46,25 @@
     border-bottom: 1px solid #690505; 
 }
 
-#home-initial{
+.content-home {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;    
-    gap: 30px;
     width: 100vw;
-    height: 100vh;
-    padding: 7vh 0 0 7vw;
-    background-image: url(../images/document-home.png);
+    height: 100vh;    
+    padding: 7vh 0 0 7vw;    
+    gap: 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
 }
 
-.main-title, .main-text, #btn-edit-home{
+#home-initial{    
+    background-image: url(../images/img-home-initial.png);
+}
+
+.home-initial-title, .home-initial-text, .btn-edit-home{
     width: 40%;
 }
 
@@ -69,11 +76,11 @@
     font-size: 2rem;
 }
 
-#business-name {
+.business-name {
     color: #9e1e1e;
 }
 
-#btn-edit-home{
+.btn-edit-home{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,11 +92,11 @@
     margin: 0 10%;
 }
 
-#btn-edit-home:hover{    
+.btn-edit-home:hover{    
     background-color: #bc2222;
 }
 
-#btn-edit-home:active{    
+.btn-edit-home:active{    
     margin-top: 2px;
     border-bottom: 1px solid #690505; 
 }
@@ -123,8 +130,29 @@
     }
 }
 
-#description{
-    height: 100vh;
+#home-description{
+    background-image: url(../images/img-home-description.png);
+    padding-left: 60%;
+    padding-right: 7%;
+}
+
+#itens-home-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-home-description{
+    font-size: 1.5rem;
+}
+
+#btn-edit-home-description{
+    margin: 0 auto;
+}
+
+#btn-edit-home-description:active{    
+    margin-top: 2px;
+    border-bottom: 1px solid #690505; 
 }
 
 footer{
