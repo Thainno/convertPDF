@@ -158,8 +158,35 @@
 footer{
     height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     background-color: blue;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    
+    width: 100%;
+    height: 100%;
+
+    background-color: #fff;
+}
+
+.coluns-itens-footer {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: green;
+}
+
+.tittle-itens-footer{
+    color: #690505;
+    font-size: 1.6rem;
 }
