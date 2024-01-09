@@ -7,6 +7,21 @@ body{
     overflow-x: hidden;
 }
 
+::selection{
+    background-color: #fff;
+    color: #9e1e1e;
+}
+
+.business-name::selection{
+    background-color: #9e1e1e;;
+    color: #fff;
+}
+
+img::selection{
+    background-color: #fff;
+    color: #9e1e1e;
+}
+
 a{
     color: #fff;
     text-decoration: none;
