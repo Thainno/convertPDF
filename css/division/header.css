@@ -1,0 +1,30 @@
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    box-sizing: border-box;
+    height: 90px;
+    width: 100vw;    
+    padding: 0 70px;
+    background-color: #1e1e1ec6;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.item-header-nav{    
+    padding: 10px;
+}
+
+#btn-login:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+#btn-register {
+    height: 35px;
+    width: 100px;
+}

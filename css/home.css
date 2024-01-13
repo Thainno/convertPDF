@@ -1,46 +1,3 @@
-.header-main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    box-sizing: border-box;
-    height: 90px;
-    width: 100vw;    
-    padding: 0 70px;
-    background-color: #1e1e1ec6;
-}
-
-.header-nav{
-    display: flex;
-    gap: 70px;
-}
-
-.item-header-nav{    
-    padding: 10px;
-}
-
-#btn-login{
-    margin-top: 1.5px;
-}
-
-#btn-login:hover{
-    transform: scale3d(1.1, 1.1, 1);
-}
-
-#btn-register{
-    background-color: #9e1e1e;
-    border-bottom: 3px solid #690505; 
-    border-radius: 5px;
-}
-
-#btn-register:hover{    
-    background-color: #bc2222;
-}
-
-#btn-register:active{
-    margin-top: 2px;
-    border-bottom: 1px solid #690505; 
-}
 
 .content-home {
     display: flex;
@@ -64,10 +21,6 @@
     width: 40%;
 }
 
-.main-title{
-    font-size: 4.1rem;
-}
-
 .main-text{
     font-size: 2rem;
 }
@@ -76,26 +29,6 @@
     color: #9e1e1e;
 }
 
-.btn-edit-home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 50px;    
-    background-color: #9e1e1e;
-    border-bottom: 3px solid #690505; 
-    border-radius: 5px;
-    margin: 0 10%;
-}
-
-.btn-edit-home:hover{    
-    background-color: #bc2222;
-}
-
-.btn-edit-home:active{    
-    margin-top: 2px;
-    border-bottom: 1px solid #690505; 
-}
 
 #read-more {
     display: flex;
@@ -146,15 +79,6 @@
 
 .item-home-description{
     font-size: 1.5rem;
-}
-
-#btn-edit-home-description{
-    margin: 0 auto;
-}
-
-#btn-edit-home-description:active{    
-    margin-top: 2px;
-    border-bottom: 1px solid #690505; 
 }
 
 footer{

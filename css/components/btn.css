@@ -1,0 +1,17 @@
+.btn-default{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9e1e1e;
+    border-bottom: 3px solid #690505; 
+    border-radius: 5px;
+}
+
+.btn-default:hover{    
+    background-color: #bc2222;
+}
+
+.btn-default:active{    
+    margin-top: 2px;
+    border-bottom: 1px solid #690505; 
+}
