@@ -2,16 +2,15 @@
     background-image: url(../img/img-home-initial.png);
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 43vw);
-    grid-template-rows: 90px 30vh 30vh auto;
+    grid-template: 90px 30vh 30vh auto/repeat(2, 43vw)
 }
 
-.main-title {
+#home-initial-title {
     grid-area: 2/1;
     align-self: end;
 }
 
-.main-text{
+#home-initial-text{
     font-size: 2rem;
     grid-area: 3/1;
     align-self: center;
@@ -21,7 +20,7 @@
     color: #9e1e1e;
 }
 
-.btn-redirect-editor{
+#btn-editor-home-initial{
     font-size: 1.2rem;
     width: 200px;
     height: 50px;
@@ -64,19 +63,35 @@
 }
 
 #home-description{
-    background-image: url(../images/img-home-description.png);
-    padding-left: 60%;
-    padding-right: 7%;
+    background-image: url(../img/img-home-description.png);
+    display: grid;
+    justify-content: center;
+    grid-template: 90px 20vh auto 20vh/ 55vw 38vw;
+}
+
+#home-description-title{
+    align-self: end;
+    grid-area: 2/2;
 }
 
 #itens-home-description{
     display: flex;
     flex-direction: column;
+    align-self: center;
+    grid-area: 3/2;
     gap: 20px;
 }
 
 .item-home-description{
     font-size: 1.5rem;
+}
+
+#btn-editor-home-description{
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    justify-self: center;
+    grid-area: 4/2;
 }
 
 footer{
