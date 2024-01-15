@@ -1,11 +1,8 @@
-
 .content-home {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    justify-content: center;    
-    width: 100vw;
-    height: 100vh;    
+    justify-content: center;   
     padding: 7vh 0 0 7vw;    
     gap: 30px;
     background-repeat: no-repeat;
