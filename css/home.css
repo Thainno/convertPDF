@@ -1,31 +1,35 @@
-.content-home {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;   
-    padding: 7vh 0 0 7vw;    
-    gap: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90%;
-}
-
 #home-initial{    
-    background-image: url(../images/img-home-initial.png);
+    background-image: url(../img/img-home-initial.png);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: 90px 30vh 30vh auto;
 }
 
-.home-initial-title, .home-initial-text, .btn-edit-home{
-    width: 40%;
+.main-title {
+    grid-row: 2;
+    align-self: end;
 }
 
 .main-text{
     font-size: 2rem;
+    grid-column: 1;    
+    grid-row: 3;
+    align-self: center;
 }
 
 .business-name {
     color: #9e1e1e;
 }
 
+.btn-redirect-editor{
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 4;
+}
 
 #read-more {
     display: flex;
