@@ -1,0 +1,8 @@
+.business-name {
+    color: #9e1e1e;
+}
+
+.business-name::selection{
+    background-color: #9e1e1e;;
+    color: #fff;
+}

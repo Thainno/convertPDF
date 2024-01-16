@@ -12,18 +12,11 @@ body{
     color: #9e1e1e;
 }
 
-.business-name::selection{
-    background-color: #9e1e1e;;
-    color: #fff;
-}
-
 img::selection{
-    background-color: #fff;
-    color: #9e1e1e;
+    background-color: #ffffff00;
 }
 
 a{
     color: #fff;
     text-decoration: none;
 }
-

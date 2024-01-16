@@ -1,0 +1,33 @@
+#hide-footer{
+    width: 115px;
+    height: 50px;
+    border-radius: 50px;     
+    background-color: #141414b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    animation: jumpBtnHideFooter 1s infinite;
+
+    position: absolute;
+    margin-top: -20px;
+}
+
+#hide-footer:hover{
+    background-color: #3f3f3f;
+}
+
+@keyframes jumpBtnHideFooter {
+    20%{
+        transform: translateY(-4px);
+    }
+    50%{
+        transform: translateY(0)
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+    100%{
+        transform: translateY(0)
+    }
+}
